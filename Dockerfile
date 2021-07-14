@@ -1,8 +1,8 @@
 # Use the latest Ubuntu image as a parent
 FROM ubuntu:focal
-MAINTAINER "Johan Pienaar" <johan@pienaarfamilie.nl>
+MAINTAINER "Arbal" <1980389+arbal@users.noreply.github.com>
 
-ENV DEBIAN_FRONTEND=noninteractive TZ=Europe/Amsterdam
+ENV DEBIAN_FRONTEND=noninteractive TZ=America/Los_Angeles
 
 # Initial updates and install core utilities
 RUN apt-get update -qq -y && \
